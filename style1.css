@@ -1,0 +1,65 @@
+/* General Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #333; /* Link color */
+}
+
+/* Header Styles */
+
+header {
+    background-color: #f0f0f0; /* Header background color */
+    padding: 10px;
+    text-align: center;
+}
+
+header a {
+    font-size: 24px;
+}
+
+/* Navigation Styles */
+
+.nav-bar {
+    background-color: #333; /* Navigation background color */
+    padding: 10px;
+    text-align: center;
+}
+
+.nav-bar a {
+    display: block;
+    color: #fff; /* Navigation link color */
+    margin-bottom: 5px;
+}
+
+/* Main Content Styles */
+
+.main {
+    padding: 20px;
+}
+
+/* Footer Styles */
+
+.footer {
+    background-color: #f0f0f0; /* Footer background color */
+    padding: 10px;
+    text-align: center;
+}
+
+.footer p {
+    font-size: 12px;
+}
+
+/* Responsive Styles */
+
+@media only screen and (max-width: 600px) {
+    /* Adjust styles for small devices */
+    header a {
+        font-size: 20px;
+    }
+}
